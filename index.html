@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mindful Girl Love</title>
+    <title>Coming Soon</title>
     <style>
         /* Basic reset */
         * {
@@ -13,7 +13,7 @@
         }
 
         body {
-            background-color: #C9BAA8; /* Earthy background color */
+            background-color: #E9D7C3; /* Calming earthy background color */
             color: #4D3B33; /* Warm text color */
             font-family: Arial, sans-serif;
             display: flex;
@@ -25,42 +25,69 @@
 
         .container {
             background-color: #FAF4EF; /* Light background for container */
-            padding: 20px;
+            padding: 30px;
             width: 90%;
-            max-width: 600px;
+            max-width: 500px;
             border-radius: 10px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        .logo {
+        /* Logo styling */
+        .logo img {
+            width: 100px; /* Adjust size as needed */
+            margin-bottom: 20px;
+        }
+
+        /* Headline and subtext */
+        .headline {
             font-size: 2em;
-            font-weight: bold;
             color: #8B5E34;
             margin-bottom: 10px;
         }
 
-        .headline {
-            font-size: 1.3em;
-            color: #8B5E34;
-            margin-top: 10px;
-        }
-
-        .description {
+        .subtext {
             font-size: 1em;
-            margin: 20px 0;
             color: #4D3B33;
+            margin-bottom: 20px;
         }
 
+        /* Email signup form */
+        .signup-form input[type="email"] {
+            padding: 10px;
+            width: 80%;
+            max-width: 250px;
+            border: 1px solid #D1B7A2;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .signup-form button {
+            padding: 10px 20px;
+            background-color: #8B5E34;
+            color: #FAF4EF;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="logo">Mindful Girl Love</div>
-        <div class="headline">Mindful Dating for Mindful Lesbians Coming Soon</div>
-        <p class="description">
-            Discover a space designed for women seeking authentic, energy-aligned connections. Join the journey of mindful love and
-            meaningful relationships.
-        </p>
+        <!-- Logo Image -->
+        <div class="logo">
+            <img src="C:\Users\lgree\Downloads\Group (1).png" alt="Mindful Girl Love Logo">
+        </div>
+
+        <!-- Headline and subtext -->
+        <div class="headline">Coming Soon</div>
+        <p class="subtext">Be the first to know when we launch. Join our waitlist!</p>
+
+        <!-- Signup form -->
+        <div class="signup-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button>Join the Waitlist</button>
+        </div>
     </div>
 </body>
 </html>
